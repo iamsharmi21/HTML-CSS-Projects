@@ -1,0 +1,124 @@
+*{
+    background-color: black;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+.racing_header{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 50px;
+    font-style: italic;
+}
+.c_n{
+    font-size: 40px;
+    font-style: italic;
+    color: yellowgreen;
+}
+
+.racing_content{
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.image{
+    margin-top: 70px;
+    width: 40vw;
+    height: 40vh;
+}
+.heading{
+    margin-bottom: 20px;
+    font-style: italic;
+    position: relative;
+    left: 50px;
+    text-shadow: 1px 2px red;
+}
+.check{
+    font-style: italic;
+    margin-bottom: 20px;
+    font-size: 35px;
+    position: relative;
+    left: 130px;
+    color: rgb(255, 196, 86);
+    
+}
+.login{
+    display: flex;
+    flex-direction: column;
+}
+.user , .password{
+    font-style: italic;
+    font-size: 20px;
+    margin-bottom: 20px;
+    
+}
+.input{
+    margin-bottom: 20px;
+    width: 80%;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 2px purple;
+    
+}
+.lets_go{
+    width: 40%;
+    font-style: italic;
+    padding: 10px;
+    font-size: 15px;
+    align-self: center;
+    margin-top: 15px;
+    position: relative;
+    right: 15px;
+    border-radius: 10px;
+
+}
+.events{
+    position: absolute;
+    right: 300px;
+    top: 150px;
+}
+.login{
+    position: relative;
+    left: 100px;
+    padding: 30px;
+    width: 70%;
+    border-radius: 5px;
+    height: 270px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 2px 2px #f18df1;
+    
+}
+ 
+ul :hover{
+    cursor: pointer;
+    color: red;
+}
+.image1 {
+    position: relative;
+    top: 150px;
+    left:1300px;
+    animation-name: car;
+    animation-duration: 3s;
+    position: relative;
+    animation-iteration-count: 10;
+}
+@keyframes car {
+    0% {
+        right: 0px;
+
+    }
+
+    100%{
+        left: -2000px;
+    }
+    
+}

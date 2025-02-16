@@ -1,0 +1,705 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.LaslesVpn{
+    margin:25px;
+}
+.Logo{
+    display: flex;
+    gap:7px;
+}
+.Logo img{
+    width:30px;
+}
+.Logo_name{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.Home_menu ol{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    color: rgb(37, 36, 36 , 0.8);
+}
+.sign_button{
+    display: flex;
+}
+.SignIn input{
+    padding: 5px 15px;
+    color: black;
+    background-color: white;
+    border: none;
+    font-weight: bold;
+}
+.SignUp input{
+    padding: 5px 15px;
+    color: red;
+    background-color: white;
+    border: 1px solid red;
+    border-radius: 15px;
+    font-weight: bold;
+}
+.Header{
+    display: flex;
+    width: 100%;
+    justify-content:space-between ;
+    align-items: center;
+}
+.Home_content{
+    display: flex;
+    margin-top: 40px;
+}
+.Left_Home_content{
+    width:50%;
+    padding: 20px 0 0 0;
+}
+.Right_home_content{
+    width: 50%;
+}
+.Home_heading{
+    font-size: 50px;
+}
+.Home_subheading{
+    color: rgb(37, 36, 36, 0.8);
+    margin-bottom: 40px;
+}
+.Home_getStarted_button input{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 7px 20px;
+    border-radius: 5px;
+    width:150px;
+    height: 35px;
+}
+.Right_home_content img{
+    width:75%;
+    height: 65%;
+}
+.Pattern1{
+    display: flex;
+     gap:20px;
+     padding: 40px;
+     
+}
+.Pattern2{
+    display: flex;
+    gap:20px;
+    padding: 40px;
+    
+}
+.Pattern3{
+    display: flex;
+    gap:20px;
+    padding: 40px;
+    
+}
+.pattern1 , .img1{
+    width: 35px;
+}
+.pattern2 , .img2{
+    width: 33px;
+}
+.pattern3 , .img3{
+    width: 33px;
+}
+.pattern_content_1 , .Users{
+    color: rgb(37, 36, 36 , 0.8);
+}
+.pattern_content_2 , .Users{
+    color: rgb(37, 36, 36 , 0.8);
+}
+.pattern_content_3 , .Users{
+    color: rgb(37, 36, 36 , 0.8);
+}
+ .members{
+    color: black;
+    font-weight: bold;
+}
+.Home_footer{
+    display: flex;
+    width:100% vw;
+    border: 1px solid white;
+    padding: 0 250px;
+    justify-content: space-between;
+    box-shadow: 0 3px 7px rgba(143, 140, 140, 0.5);
+    position: relative;
+    top:-70px;
+    
+}
+.line{
+    width:0.5px;
+    background-color: rgb(243, 235, 235);
+    height: 80px;
+    position: relative;
+    top:20px;
+}
+.Features_page{
+    display: flex;
+    padding: 50px;
+}
+.Left_features_content{
+    width: 50%;
+}
+.Right_features_content{
+    width: 50%;
+}
+.Left_features_content img{
+    width:350px;
+    position: relative;
+    top:-60px;
+    left:-40px;
+}
+.Features_heading{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+.Features_subheading{
+    margin-bottom: 20px;
+    color: rgb(37, 36, 36 , 0.8);
+    font-size: 17px;
+}
+ol{
+    list-style:none;
+}
+li{
+    color: black;
+    font-size: 17px;
+}
+li img{
+    width:12px;
+    margin-right: 5px;
+}
+.Subscription_plan_heading{
+    font-size: 35px;
+    text-align: center;
+}
+.Subscription_plan_subheading{
+    text-align: center;
+    color: rgb(37, 36, 36 , 0.8);
+    margin-bottom: 50px;
+}
+.Freeplan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Freeplan .logo1{
+    width:100px;
+}
+.Free{
+    margin:20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.Subscription_plan_page ol{
+    font-size: 21px;
+}
+.Subscription_plan_page li{
+    color: rgb(37, 36, 36 , 0.8);
+}
+.Subscription_plan_page li img{
+    width:18px;
+    margin-right: 10px;
+}
+.fee{
+    margin: 10px 0;
+    font-weight: bold;
+    font-size: 18px;
+}
+.Plan_Selesction input ,.plan{
+    background-color: white;
+    padding: 6.5px 40px;
+    color: red;
+    border: 1px solid red;
+    border-radius: 15px;
+}
+
+.Freeplan{
+    border:1px solid black;
+    width: 250px;
+    height: 450px;
+    border-radius: 5px;
+    padding: 20px 0;
+}
+.subPlan{
+    border:1px solid red;
+    width: 250px;
+    height: 450px;
+    border-radius: 5px;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.subPlan input{
+    background-color: red;
+    color: white;
+}
+ .logo2{
+    width:100px;
+}
+.plans{
+    display: flex;
+    gap:30px;
+    justify-content: center;
+    
+}
+.plan{
+   position: relative;
+   top:93px;
+}
+.fee{
+    position: relative;
+    top:90px;
+}
+.fee1{
+    font-weight: bold;
+    position: relative;
+    top:73px;
+}
+.fee2{
+    font-weight: bold;
+    position: relative;
+    top:43px;
+}
+.plan1{
+    position: relative;
+    top:85px;
+ }
+ .plan2{
+    position: relative;
+    top:55px;
+ }
+ .Freeplan li{
+    line-height: 30px;
+ }
+ .subPlan li{
+    line-height: 30px;
+ }
+ .World_service_heading{
+    margin-top: 90px;
+    font-size: 35px;
+    width:400px;
+    text-align: center;
+ }
+ .World_service_subheading{
+    margin: 20px 0 80px 0;
+ }
+ .World_service{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .World_service img{
+    width:75%;
+ }
+ .Customers_review_heading{
+    font-size: 35px;
+ }
+ .Customers_review_subheading{
+    color: rgb(37, 36, 36 , 0.8);
+    margin: 10px 0 80px 0;;
+ }
+ .head1{
+    display: flex;
+    justify-content: space-between;
+ }
+ .head1 img{
+    width: 35px;
+    gap:5px;
+ }
+ .head2 img{
+    width: 35px;
+    gap:5px;
+ }
+ .head3 img{
+    width: 35px;
+    gap:5px;
+ }
+ .rating1 img{
+    width: 10px;
+ }
+ .feedback1{
+    margin-top: 20px;
+ }
+ .review1{
+    display: flex;
+    flex-direction: column;
+    width:280px;
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 30px;
+ }
+ .Customers_review{
+    margin: 25px 0 0 25px;
+ }
+ .Cousrev{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+ }
+ .head2{
+    display: flex;
+    justify-content: space-between;
+ }
+ .rating2 img{
+    width: 10px;
+ }
+ .feedback2{
+    margin-top: 20px;
+ }
+ .review2{
+    display: flex;
+    flex-direction: column;
+    width:280px;
+    max-height: fit-content;
+    border: 1px solid rgb(207, 199, 199);
+    border-radius: 5px;
+    padding: 30px;
+ }
+ .head3{
+    display: flex;
+    justify-content: space-between;
+ }
+ .rating3 img{
+    width: 10px;
+ }
+ .feedback3{
+    margin-top: 20px;
+ }
+ .review3{
+    display: flex;
+    flex-direction: column;
+    width:290px;
+    max-height: fit-content;
+    border: 1px solid rgb(214, 206, 206);
+    border-radius: 5px;
+    padding: 30px;
+ }
+ .Customers_review{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 70px;
+ }
+ .Subscription_screen_heading{
+    font-size: 35px;
+    margin:  20px;
+ }
+ .Subscription_screen_subheading{
+    font-size: 18px;
+    margin: 20px;
+ }
+ .Subscription_screen_right input{
+    padding: 17px 45px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    margin-right: 80px;
+ }
+ .Subscription_screen{
+    display: flex;
+    width: 100% vw;
+    border: 1px solid rgb(224, 218, 218);
+    box-shadow: 0 3px 8px rgb(196, 190, 190);
+    padding: 15px 10px;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 60px;
+    margin-right: 60px;
+ }
+ .Subscription_screen_left{
+    width: 50%;
+ }
+ .Subscription_screen_right{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .Lasles_footer_left_head img{
+    width:25px;
+ }
+ .Lasles_footer{
+    margin-top: 50px;
+    margin-left: 20px;
+ }
+ .Lasles_footer_left_head_name{
+    font-size: 19px;
+    font-weight: bold;
+ }
+ .Lasles_footer_left_subheading{
+    margin: 30px 0;
+    width: 490px;
+ }
+ .Lasles_footer_left_copyrights{
+    color: rgb(37, 36, 36 , 0.8);
+ }
+ .product1{
+    font-weight: bold;
+ }
+ .engage1{
+    font-weight: bold;
+ }
+ .monry1{
+    font-weight: bold;
+ }
+ .Lasles_footer_right{
+    display: flex;
+    gap:70px;
+ }
+  .products{
+    font-size: 16px;
+    line-height: 30px;
+    color: rgb(37, 36, 36 , 0.8);
+ }
+ .engages{
+    font-size: 16px;
+    line-height: 30px;
+    color: rgb(37, 36, 36 , 0.8);
+ }
+ .monrys{
+    font-size: 16px;
+    line-height: 30px;
+    color:rgb(37, 36, 36 , 0.8);
+ }
+ .Lasles_footer{
+    display: flex;
+    width: 100%vw;
+    justify-content: space-between;
+    margin-right: 45px;
+    margin-bottom: 40px;
+ }
+.Lasles_footer_left_img{
+    margin-left:-20px ;
+}
+.Lasles_footer_left_img span{
+    margin-left:-20px ;
+}
+.mobilemenu{
+    display: none;
+}
+@media only screen and (max-width: 375px){
+    .Home_menu , .sign_button{
+        display: none;
+    }
+    .LaslesVpn{
+        width: 375px;
+    }
+    .mobilemenu{
+        display: flex;
+        flex-direction: column;
+    }
+    .MenuIcon img{
+        width: 25px;
+    }
+    .MenuIcon_menu{
+        display:none ;
+        padding: 10px;
+    }
+   
+    .MenuIcon_menu ol li{
+        padding: 8px;
+        border-bottom: 1px solid grey;
+    }
+    .MenuIcon_sign{
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .MenuIcon_menu ol li:hover{
+        background-color: black;
+        color: white;
+    }
+    .MenuIcon:hover > .mobilemenu{
+         display: flex;
+    }
+    .Home_page{
+        display: flex;
+        flex-direction: column;
+    }
+    .Home_heading{
+        font-size: 20px;
+        margin-bottom: 15px;
+        width: 400px;
+    }
+    .Home_subheading{
+        width: 350px;
+    }
+    .Home_content{
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+    }
+    .Home_getStarted_button{
+        margin-top: -20px;
+        position: relative;
+        left: 100px;
+    }
+    .Home_getStarted_button input{
+        width: 300px;
+    }
+    .Home_footer{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        max-width: 400px;
+        align-items: center;
+        max-height: 500px;
+    }
+    .Right_home_content{
+        margin-bottom: 100px;
+        margin-top: 20px;
+        width: 400px;
+
+    }
+    .pattern1 .pattern2 .pattern3{
+        width: 30px;
+        padding: -40px;
+        gap:20px;
+    }
+    .line{
+        width: 0px;
+        height: 0px;
+    }
+    .Home_getStarted_button input{
+        width: 100px;
+        font-size: 10px;
+        padding: 1px 5px;
+        max-height: 50px;
+        
+    }
+    .Features_page{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+    .Left_features_content img{
+        width:350px;
+        margin-left: 40px;
+    }
+    .Right_features_content .Features_heading{
+        font-size: 20px;
+        width: 400px;
+    }
+    .Features_subheading{
+        font-size: 16px;
+        margin-top: 15px;
+        width: 350px;
+    }
+    .Subscription_plan_heading{
+        font-size: 20px;
+        text-align: left;
+        margin-top: 15px;
+        width: 400px;
+    }
+    .Subscription_plan_subheading{
+        font-size: 16px;
+        text-align: left;
+        width:162px;
+        width: 350px;
+    }
+    .plans{
+        display: flex;
+        flex-direction:column;
+    }
+    .Freeplan , .subPlan {
+        
+    }
+    .Free li{
+        font-size: 16px;
+    }
+    .World_service_heading{
+        font-size: 20px;
+        text-align: center;
+        position: relative;
+        left: -20px;
+        top:-30px;
+        width: 400px;
+    }
+    .World_service_subheading{
+        font-size: 16px;
+        position: relative;
+        top:-30px;
+        left: 10px;
+        margin-bottom: 10px;
+        width: 350px;
+    }
+    .World_service img{
+        width: 200px;
+    }
+    .Customers_review_heading{
+        font-size: 20px;
+        position: relative;
+        left: 25px;
+        width: 400px;
+    }
+    .Customers_review_subheading{
+        font-size: 16px;
+        margin-bottom: 10px;
+        position: relative;
+        left: 0px;
+        width: 350px;
+    }
+    .Cousrev{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: -20px;
+    }
+    .review1 , .review2 , .review3{
+        margin-bottom: -30px;
+        padding: 10px;
+    }
+    .Subscription_screen{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left:-60px;
+        width: 290px;
+    }
+    .Subscription_screen_heading{
+        font-size: 20px;
+        margin: 0;
+    }
+    .Subscription_screen_subheading{
+        font-size: 16px;
+        margin: 0;
+        margin-top: 10px;
+    }
+    .Subscription_screen_right input {
+        padding: 10px 15px;
+        font-size: 10px;
+        margin-top: 15px;
+        position: relative;
+        left:30px;
+    }
+    .Lasles_footer{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+    }
+    .Lasles_footer_left_subheading{
+        width: 350px;
+        margin: 10px 10px 10px 0;
+    }
+    .Lasles_footer_left_copyrights{
+        position: relative;
+            top:-20px;   
+    }
+    .Lasles_footer_right{
+        display: flex;
+        flex-direction: column;
+        margin-right: 0;
+        gap:10px;
+    }
+    
+}
